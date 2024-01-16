@@ -20,8 +20,8 @@ from jah_port import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('', views.view_home, name='home'),
-    path('AscendedKing', views.view_ticketmaster, name='Ascend'),
+    path('index.html', views.view_home, name='home'),
+    path('AscendedKing', views.view_ascendedking, name='Ascend'),
     path('Gor-3300k', views.view_cpu, name='CPU'),
     path('Jah_Simple_math_pro', views.view_simple_math_pro, name='SimpleMath'),
     path('ticketmaster', views.view_ticketmaster, name='ticketmaster'),
