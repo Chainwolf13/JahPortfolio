@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jahmaro's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="website-styles.css" />
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+
+</script>
+
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jahmaro Gordon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" value="home" aria-current="page" href="{% url 'index' %}">Home</a>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="AscendedKing.html">AscendedKing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cpu.html">Gor-1000k</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Jah_Simple_math_pro.html">Simple_Math_Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ticketmaster.html">Ticketmaster</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://jahgor.pythonanywhere.com/">TicketMasterLive</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">My Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--Section 1 -->
+
+
+<span class="border border-top-0 " ></span>
+
+
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <div class="row row-cols-2">
+        <div class="col-lg-6 col-md-12 col-12">  <h1 class="display-4">About Me</h1>   <!--Change About me to italize-->
+            <p class="fw-semibold lh-base " > My name is Jahmaro Gordon, and I am a programming enthusiast.
+                I am a recent graduate at Central Connecticut State University with a B.S in Computer Science and
+                I find delight working on programming projects to sharpen my skills
+                and reinforce my knowledge in this world of innovation.
+            </p>
+            <button type="button" class="btn btn-primary btn-lg">Explore My Website</button>
+        </div>
+
+        <img src="Jah_Sweater.png" class="img-fluid" alt="Me in a sweater" style="height: 400px; width: 400px;">
+
+
+
+        <div class="col-lg-6 col-md-12 col-12 text-end ">   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <!--
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Jah_Sweater.png" class="img-fluid" alt="Me in a sweater" style="height: 400px; width: 400px;">
+          </div>
+          <div class="carousel-item">
+            <img src="" class="img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="" class="img-fluid" alt="...">
+          </div>
+             <div class="carousel-item">
+            <img src="" class="img-fluid" alt="...">
+          </div>
+             <div class="carousel-item">
+            <img src="" class="img-fluid" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+       -->
+        </div>
+
+
+
+
+        </div> <!-- Col div -->
+    </div>
+
+    <!--Larger shadow  <div class="shadow-lg p-3 my-3 bg-white rounded">   --></div>
+
+<span class="border border-top-0"></span>
+
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <h1 class="display-4"> Django Projects </h1>
+    <div class="row row-cols-3 gy-5 ">
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 1-->
+
+            <div class="card h-100 p-3" >
+                <i class="bi bi-ticket-perforated-fill" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">TicketMasterLive</h5>
+                    <p class="card-text">
+                        This is the full stack Django version of my TicketMasterLive Project in which everything is securely designed in Python.
+                        Created in Python with information stored in SQLite database</p>
+                    <a href="https://jahgor.pythonanywhere.com/" class="btn btn-primary">Learn more &raquo;</a>
+                </div>
+            </div>
+
+        </div> <!--Col 1-->
+
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 2-->
+            <div class="card h-100 p-3"  >
+                <i class="bi bi-chat-dots" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">EnCord</h5>
+                    <p class="card-text">
+                        This Project was to create a Messaging Platform (Mock Discord) in which data was sent securely to from users on a custom SSL Protocol layer.
+                        I used Django to best implement this scheme. Not Yet Finished....
+
+                    </p>
+
+                    <a href="#" class="btn btn-primary">  Coming Soon... &raquo;</a>
+                </div>
+            </div>
+        </div> <!--Col 2-->
+    </div>
+</div>
+
+
+
+<!--Section 2 -->
+
+<span class="border border-top-0"></span>
+
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <h1 class="display-4"> Intriguing Projects </h1>
+    <div class="row row-cols-3 gy-5 ">
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 1-->
+
+            <div class="card h-100 p-3" >
+                <i class="bi bi-cpu-fill" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Gor-1000k</h5>
+                    <p class="card-text">
+                        This is a 4-bit mips processor I design that can run addition,subtraction, AND, OR, SLT, and LI instructions using 4 bit binary numbers.
+                        If you want to see what this looks like click learn more. </p>
+                    <a href="cpu.html" class="btn btn-primary">Learn more &raquo;</a>
+                </div>
+            </div>
+
+        </div> <!--Col 1-->
+
+
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 2-->
+            <div class="card h-100 p-3"  >
+                <i class="bi bi-controller" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Ascended King</h5>
+                    <p class="card-text">
+                        This is a 2D Role Playing Game I designed using Java. I especially enjoyed this one due to my early childhood of playing
+                        retro games like this. Don't hesitate to press learn more. I think you would enjoy playing this as well.
+                    </p>
+
+                    <a href="AscendedKing.html" class="btn btn-primary">  Learn more &raquo;</a>
+                </div>
+            </div>
+        </div> <!--Col 2-->
+    </div>
+</div>
+
+
+<!-- Web Dev Projects -->
+<span class="border border-top-0"></span>
+
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <h1 class="display-4"> Website Projects </h1>
+    <div class="row row-cols-3 gy-5 ">
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 1-->
+
+            <div class="card h-100 p-3" >
+                <i class="bi bi-calculator-fill" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Simple Math Pro</h5>
+                    <p class="card-text">
+                     This dynamic math game is a dazzling showcase of JavaScript and jQuery
+                    , offering a swift and engaging challenge for users seeking a quick and interactive experience.
+                    </p>
+                    <a href="Jah_Simple_math_pro.html" class="btn btn-primary">Play Now &raquo;</a>
+                </div>
+            </div>
+
+        </div> <!--Col 1-->
+
+
+        <div class="col-lg-6 col-md-12 col-12">  <!--Col 2-->
+
+            <div class="card h-100 p-3"  >
+                <i class="bi bi-ticket-perforated-fill" style="font-size: 100px; color: #6495EDFF;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">TicketMaster</h5>
+                    <p class="card-text">
+                       This website employs JavaScript and jQuery, utilizing AJAX to parse JSON data for seamless ticket acquisition,
+                        mirroring the functionality of Eventbrite.
+                        This approach enables dynamic content loading, responsive design, and real-time updates,
+                        enhancing user interaction and providing a smooth ticket booking experience.
+                    </p>
+
+                    <a href="ticketmaster.html" class="btn btn-primary"> Find a ticket &raquo;</a>
+                </div>
+            </div>
+
+        </div> <!--Col 2-->
+
+    </div>
+
+</div>
+
+
+
+<!-- Section 3  -->
+
+
+
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <!-- Row with 2 cols  -->
+    <div class="container text-center">
+        <div class="row row-cols-2">
+            <div class="col-lg-6 col-md-12 col-12">  <!-- Col1-->
+                <h1 class="display-4">GenCyber</h1>
+                <p class="lead">As one of CCSU's top students enrolled in a BS in the Computer Science program, I was appointed to teach ethical laws
+                    regarding CyberSecurity to the future generation of innovative minds in the summer of 2022. </p>
+
+                <p class="lead">During the course of this program, with the help of professor Blankenship I was able to teach students about cryptographic
+                    messages such as the Caesar Cipher that we implemented in a game of battlefield to give practical knowledge as well. Students were also taught
+                    Arduino programming using python as an intro to programming.</p>
+
+                <img src="images/NSFLogo.jpg" class="img-fluid" alt="NSF Logo" style="text-align: center;">
+
+            </div>  <!-- Col1  undraw_feeling_proud_qne1  -->
+
+
+            <!-- Col2-->
+            <div class="col-lg-6 col-md-12 col-12">   <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src=" https://www.ccsu.edu/sites/default/files/styles/hero_slide_content/public/hero-images/1_1.jpg?h=9624e4e4" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.ccsu.edu/sites/default/files/styles/hero_slide_content/public/hero-images/2_2.jpg?h=9624e4e4" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.ccsu.edu/sites/default/files/styles/hero_slide_content/public/hero-images/3_2.jpg?h=9624e4e4" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.ccsu.edu/sites/default/files/styles/hero_slide_content/public/hero-images/4_2.jpg?h=9624e4e4" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  </div>
+            <!-- Col2-->
+        </div>
+    </div>
+</div>
+
+
+<!--Section 7 -->
+<div class="container text-center shadow-lg p-3 my-3 bg-white rounded" >
+    <h1 style="text-align:center; "> My Clubs </h1>
+    <br>
+    <br>
+    <div class="container text-center">
+        <div class="row row-cols-2 gy-5">
+            <div class="col-lg-6 col-md-12 col-12">  <!--Col 1-->
+
+                <div class="card h-100" >
+
+                    <!-- icon shadow -->
+
+                    <img src="https://se-images.campuslabs.com/clink/images/f3f6d055-f0fb-42bf-ba7d-d15cfb0f109af688c6e4-a680-42d6-8739-1c16d336d564.jpg?preset=med-sq" class="img-fluid p-3 my-5 shadow"
+                         style="width: 200px; margin-left: auto; margin-right: auto; border-radius: 50%;"
+                         alt="...">
+
+                    <!--Shadow-->
+                    <div class="card-body">
+                        <h5 class="card-title">CS Club</h5>
+                        <p class="card-text lead">
+                            Since I love programming naturally, I joined CCSU's Computer Science Club whose purpose is to promote student networking
+                            and further their knowledge in the computing fields;
+                            and to further the opportunity to gain real-world experience in computer-related fields;
+                        </p>
+                        <!--<a href="#" class="btn btn-primary">  Learn more &raquo;</a>-->
+                    </div> <!--Card body-->
+                </div> <!--Card -->
+
+            </div> <!--Col 1-->
+
+            <div class="col-lg-6 col-md-12 col-12">  <!--Col 2-->
+
+                <div class="card h-100"  >
+
+                    <img src="https://se-images.campuslabs.com/clink/images/06a0f1cb-cf06-4860-a1ae-1114c207d20cf2ba37d7-b07c-49c7-9a25-9ccdf9a00887.png?preset=med-sq" class="img-fluid p-1 my-5 shadow"
+                         style="width: 200px;margin-left: auto; margin-right: auto; border-radius: 50%;" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Cybersecurity Club</h5>
+                        <p class="card-text lead">
+
+                            With my concentration in CyberSecurity I also decided to join the CyberSecurity club at CCSU.
+                            This was actually the first time I ever done password cracking as well! I also met more individuals similar to myself
+                            Who had similar experiences in coding and hacking.<a href="#"></a>
+
+
+                        </p>
+                        <!--<a href="#" class="btn btn-primary">  Learn more &raquo;</a>-->
+
+                    </div>
+                </div>
+
+            </div> <!--Col 2-->
+
+
+        </div>
+
+    </div>
+</div>
+
+<!--Larger shadow --></div>
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Json Parsing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="ticketmaster.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jahmaro Gordon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="AscendedKing.html">AscendedKing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cpu.html">Gor-1000k</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Jah_Simple_math_pro.html">Simple_Math_Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ticketmaster.html">Ticketmaster</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://jahgor.pythonanywhere.com/">TicketMasterLive</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">My Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<br>
+<br>
+<!-- TICKET MASTER TOP STYLE -->
+
+<div class="container-fluid text-center p-3  center" style="color: White; background-color: royalblue">
+    <div class="row row-cols-1">
+        <h1 class="display-1"> Ticketmaster </h1>
+
+        <h2 class="display-5"> Quickly find tickets around you </h2>
+
+    </div>
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search by genre, artist or event" aria-label="Recipient's username" aria-describedby="button-addon2" name="event_type" value="">
+        <input type="text" class="form-control" placeholder="Enter a state" aria-label="Recipient's username" aria-describedby="button-addon2" name="state" value="">
+        <input type="text" class="form-control" placeholder="Enter a city e.g., Hartford" aria-label="Recipient's username" aria-describedby="button-addon2" name="location" value="">
+        <button class="btn btn-danger" type="button" id="Search_Button">SEARCH</button>
+    </div>
+
+</div>
+
+<!-- Ajax Card system -->
+
+<div class="container shadow-lg p-3 my-5 center" id="CardSystem" style="margin: auto;">
+    <div class="row row-cols-1">
+        <div> <h3 id="eventsFound">  </h3> </div>
+        <!-- This div is a placeholder for the information coming from the API -->
+        <div id="results">
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+                <!-- jQuery -->
+                <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+                <!-- our own javascript file to perform ajax request -->
+                <script src="js/ticketmaster.js"></script>
+
+
+</body>
+</html>
